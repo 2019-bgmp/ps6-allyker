@@ -1,0 +1,22 @@
+[0.000001] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[1.336234] 858989 sequences found
+[1.336235] Done
+[1.336291] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[2.643445] 858989 sequences found
+[2.643447] Done
+[2.643504] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[3.879817] 849803 sequences found
+[3.879819] Done
+[3.900017] Reading read set file /projects/bgmp/akershne/Bi621/PS6/Velvet/3/Sequences;
+[4.243162] 2567781 sequences found
+[5.860157] Done
+[5.860161] 2567781 sequences in total.
+[5.860670] Writing into roadmap file /projects/bgmp/akershne/Bi621/PS6/Velvet/3/Roadmaps...
+[7.454883] Inputting sequences...
+[7.455114] Inputting sequence 0 / 2567781
+[9.787118] Inputting sequence 2000000 / 2567781
+[14.022255] Inputting sequence 1000000 / 2567781
+[14.842530]  === Sequences loaded in 7.387663 s
+[14.843335] Done inputting sequences
+[14.843338] Destroying splay table
+[14.861045] Splay table destroyed

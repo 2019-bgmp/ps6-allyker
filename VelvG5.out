@@ -1,0 +1,138 @@
+[0.000000] Reading roadmap file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/Roadmaps
+[2.757942] 2567781 roadmaps read
+[2.759047] Creating insertion markers
+[3.081181] Ordering insertion markers
+[3.423652] Counting preNodes
+[3.690116] 1346738 preNodes counted, creating them now
+[5.635891] Sequence 1000000 / 2567781
+[7.433885] Sequence 2000000 / 2567781
+[8.343502] Adjusting marker info...
+[8.688560] Connecting preNodes
+[9.122347] Connecting 2000000 / 2567781
+[9.470284] Connecting 1000000 / 2567781
+[9.795761] Cleaning up memory
+[9.796349] Done creating preGraph
+[9.796357] Concatenation...
+[10.054902] Renumbering preNodes
+[10.054904] Initial preNode count 1346738
+[10.072176] Destroyed 1120657 preNodes
+[10.072178] Concatenation over!
+[10.072179] Clipping short tips off preGraph
+[10.109666] Concatenation...
+[10.146693] Renumbering preNodes
+[10.146694] Initial preNode count 226081
+[10.154492] Destroyed 97408 preNodes
+[10.154494] Concatenation over!
+[10.154494] 57367 tips cut off
+[10.154495] 128673 nodes left
+[10.156500] Writing into pregraph file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/PreGraph...
+[10.458273] Reading read set file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/Sequences;
+[10.808175] 2567781 sequences found
+[12.386140] Done
+[14.012350] Reading pre-graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/PreGraph
+[14.012614] Graph has 128673 nodes and 2567781 sequences
+[14.164665] Scanning pre-graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/PreGraph for k-mers
+[14.274138] 3121856 kmers found
+[14.510549] Sorting kmer occurence table ... 
+[15.777252] Sorting done.
+[15.777255] Computing acceleration table... 
+[15.825324] Computing offsets... 
+[15.846663] Ghost Threading through reads 0 / 2567781
+[17.595945] Ghost Threading through reads 2000000 / 2567781
+[18.910797] Ghost Threading through reads 1000000 / 2567781
+[20.256421]  === Ghost-Threaded in 4.409893 s
+[20.256444] Threading through reads 0 / 2567781
+[22.370476] Threading through reads 2000000 / 2567781
+[23.957403] Threading through reads 1000000 / 2567781
+[25.541368]  === Threaded in 5.284943 s
+[26.409140] Correcting graph with cutoff 0.200000
+[26.413192] Determining eligible starting points
+[26.525583] Done listing starting nodes
+[26.525585] Initializing todo lists
+[26.550483] Done with initilization
+[26.550485] Activating arc lookup table
+[26.584545] Done activating arc lookup table
+[26.825156] 10000 / 128673 nodes visited
+[26.899282] 20000 / 128673 nodes visited
+[26.988693] 30000 / 128673 nodes visited
+[27.082696] 40000 / 128673 nodes visited
+[27.183526] 50000 / 128673 nodes visited
+[27.292982] 60000 / 128673 nodes visited
+[27.386543] 70000 / 128673 nodes visited
+[27.466514] 80000 / 128673 nodes visited
+[27.538111] 90000 / 128673 nodes visited
+[27.602655] 100000 / 128673 nodes visited
+[27.647508] 110000 / 128673 nodes visited
+[27.658234] 120000 / 128673 nodes visited
+[27.667632] 130000 / 128673 nodes visited
+[27.668762] Concatenation...
+[27.676002] Renumbering nodes
+[27.676003] Initial node count 128673
+[27.677379] Removed 72968 null nodes
+[27.677379] Concatenation over!
+[27.677380] Clipping short tips off graph, drastic
+[27.722202] Concatenation...
+[27.775966] Renumbering nodes
+[27.775969] Initial node count 55705
+[27.777099] Removed 27071 null nodes
+[27.777100] Concatenation over!
+[27.777100] 28634 nodes left
+[27.777776] Writing into graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/Graph2...
+[29.060025] Measuring median coverage depth...
+[29.068807] Median coverage depth = 35.028446
+[29.068851] Removing contigs with coverage < 17.514223...
+[29.079932] Concatenation...
+[29.264546] Renumbering nodes
+[29.264549] Initial node count 28634
+[29.264872] Removed 24481 null nodes
+[29.264873] Concatenation over!
+[29.264980] Concatenation...
+[29.265312] Renumbering nodes
+[29.265312] Initial node count 4153
+[29.265315] Removed 0 null nodes
+[29.265316] Concatenation over!
+[29.265324] Clipping short tips off graph, drastic
+[29.266103] Concatenation...
+[29.267997] Renumbering nodes
+[29.267998] Initial node count 4153
+[29.268093] Removed 467 null nodes
+[29.268093] Concatenation over!
+[29.268094] 3686 nodes left
+[29.268095] Read coherency...
+[29.268124] Identifying unique nodes
+[29.268179] Done, 575 unique nodes counted
+[29.268179] Trimming read tips
+[29.268247] Renumbering nodes
+[29.268247] Initial node count 3686
+[29.268250] Removed 0 null nodes
+[29.268250] Confronted to 0 multiple hits and 0 null over 0
+[29.268251] Read coherency over!
+[29.275200] Starting pebble resolution...
+[29.283855] Computing read to node mapping array sizes
+[29.334986] Computing read to node mappings
+[29.628913] Estimating library insert lengths...
+[29.636928] Done
+[29.636985] Computing direct node to node mappings
+[29.641983] Scaffolding node 0
+[29.646284]  === Nodes Scaffolded in 0.009298 s
+[29.650325] Preparing to correct graph with cutoff 0.200000
+[29.654729] Cleaning memory
+[29.654732] Deactivating local correction settings
+[29.654765] Pebble done.
+[29.654766] Concatenation...
+[29.657181] Renumbering nodes
+[29.657182] Initial node count 3686
+[29.657277] Removed 198 null nodes
+[29.657286] Concatenation over!
+[29.657287] Removing reference contigs with coverage < 17.514223...
+[29.657370] Concatenation...
+[29.657551] Renumbering nodes
+[29.657552] Initial node count 3488
+[29.657554] Removed 0 null nodes
+[29.657563] Concatenation over!
+[29.666925] Writing contigs into /projects/bgmp/akershne/Bi621/PS6/Velvet/2/contigs.fa...
+[30.146797] Writing into stats file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/stats.txt...
+[30.175062] Writing into graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/2/LastGraph...
+[30.874645] Estimated Coverage = 35.028446
+[30.874650] Estimated Coverage cutoff = 17.514223
+Final graph has 3488 nodes and n50 of 3127, max 10954, total 1307653, using 2283784/2567781 reads

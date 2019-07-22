@@ -1,0 +1,63 @@
+[0.000000] Reading graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/1/Graph2
+[0.000036] Graph has 5880 nodes and 2567781 sequences
+[0.645362] Measuring median coverage depth...
+[0.646590] Median coverage depth = 33.683210
+[0.646653] Reading read set file /projects/bgmp/akershne/Bi621/PS6/Velvet/1/Sequences;
+[0.956493] 2567781 sequences found
+[2.493675] Done
+[4.102616] Removing contigs with coverage < 16.841605...
+[4.106481] Concatenation...
+[4.138632] Renumbering nodes
+[4.138634] Initial node count 5880
+[4.138707] Removed 3593 null nodes
+[4.138707] Concatenation over!
+[4.138740] Concatenation...
+[4.138824] Renumbering nodes
+[4.138824] Initial node count 2287
+[4.138826] Removed 0 null nodes
+[4.138826] Concatenation over!
+[4.138831] Clipping short tips off graph, drastic
+[4.138985] Concatenation...
+[4.139458] Renumbering nodes
+[4.139459] Initial node count 2287
+[4.139494] Removed 94 null nodes
+[4.139495] Concatenation over!
+[4.139495] 2193 nodes left
+[4.139498] Read coherency...
+[4.139508] Identifying unique nodes
+[4.139537] Done, 702 unique nodes counted
+[4.139537] Trimming read tips
+[4.139580] Renumbering nodes
+[4.139580] Initial node count 2193
+[4.139582] Removed 0 null nodes
+[4.139582] Confronted to 0 multiple hits and 0 null over 0
+[4.139582] Read coherency over!
+[4.148944] Starting pebble resolution...
+[4.158216] Computing read to node mapping array sizes
+[4.191419] Computing read to node mappings
+[4.268710] Estimating library insert lengths...
+[4.276507] Done
+[4.276514] Computing direct node to node mappings
+[4.281848] Scaffolding node 0
+[4.287332]  === Nodes Scaffolded in 0.010817 s
+[4.293258] Preparing to correct graph with cutoff 0.200000
+[4.295022] Cleaning memory
+[4.295025] Deactivating local correction settings
+[4.295046] Pebble done.
+[4.295047] Concatenation...
+[4.295730] Renumbering nodes
+[4.295730] Initial node count 2193
+[4.295763] Removed 88 null nodes
+[4.295767] Concatenation over!
+[4.295768] Removing reference contigs with coverage < 16.841605...
+[4.295815] Concatenation...
+[4.295867] Renumbering nodes
+[4.295867] Initial node count 2105
+[4.295869] Removed 0 null nodes
+[4.295872] Concatenation over!
+[4.304602] Writing contigs into /projects/bgmp/akershne/Bi621/PS6/Velvet/1/contigs.fa...
+[4.651436] Writing into stats file /projects/bgmp/akershne/Bi621/PS6/Velvet/1/stats.txt...
+[4.671968] Writing into graph file /projects/bgmp/akershne/Bi621/PS6/Velvet/1/LastGraph...
+[5.079131] Estimated Coverage = 33.683210
+[5.079135] Estimated Coverage cutoff = 16.841605
+Final graph has 2105 nodes and n50 of 1809, max 10419, total 1144051, using 1655098/2567781 reads

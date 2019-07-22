@@ -1,0 +1,44 @@
+Part 2.3 questions:
+a.
+total nt = 50 x 40000
+=2000000
+
+b.
+Total nt in FASTQs (based on running ContigParser on each and adding):
+ NTcount says it's 197182599nt total
+>>> 197182599/2000000
+98
+
+c.
+Ck=C(L-K)/L
+velvetg results say:
+Final graph has 2105 nodes and n50 of 1809, max 10419, total 1144051, using 1898671/2567781 reads
+ck=98(1809-49)/1809
+ck= 95
+
+d.
+Using the number of reads used by velvet
+C=N*L/G
+C=1898671*1809/2000000
+C=1717
+
+ck=1717(1809-49)/1809
+ck=1670
+
+Part 3 questions:
+The distribution of contig lengths varies based on both kmer size and velvet parameters.
+There seems to be an inverse relationship between kmer size and contig length, with the lower kmer values having less short contigs.
+The run that removed all contigs under 500 also had less short contigs for obvious reasons.
+Changing the coverage didn't affect the shape of the graph as much but it drastically reduced the overall number of contigs.
+
+2.
+Mentioned above, but increasing the coverage cutoff led to fewer contigs.
+The auto cutoff for velvet is " set automatically to half the length weighted median contig coverage depth"
+Increasing the coverage decreases the number of contigs which decreases the size of the de Bruijin graph.
+
+3.
+Looking at this has made me realize that my contig parser script is not giving the correct N50 values, damn.
+However velvet prints them so I can still compare them.
+N50 increases with coverage limit and also increases with lower kmer size.
+Removing the short contigs could theoretically increase NP50, although it didn't here.
+On the graph it clearly shifted the coverage distribution rightwards.
